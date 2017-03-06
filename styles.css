@@ -1,0 +1,144 @@
+body {
+    background-color: #2f3439;
+}
+
+h2 {
+    font-weight: normal; 
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    margin-top: 36px; 
+}
+
+#cv {
+    font-family: "Helvetica", sans-serif; 
+    margin-top: 35px;
+    max-width: 800px; 
+    color: #BEBCB7;
+}
+
+@media (max-width: 780px) { 
+    #hi {
+        font-size: 110px;
+        margin-top: -38px; 
+    }
+}
+
+@media (min-width: 781px) { 
+    #hi {
+        font-size: 150px; 
+        margin-top: -50px; 
+    }
+}
+
+#hi {
+    color: #76a09c;
+    font-family: "Garamond", serif; 
+    margin-bottom: -30px;
+}
+
+#letter {
+    font-size: 100%; 
+    vertical-align: bottom;
+       
+}
+.title {
+    text-align:center;
+    font-size: 200%;
+}
+
+#name {
+    color:#76a09c; 
+}
+
+.block-left {
+    width: 30%; 
+    float: left; 
+}
+
+#university, #company {
+    font-weight: bold; 
+}
+
+#program, #role {
+    letter-spacing: 1.5px;
+}
+
+.progress {
+    background-color: #476663; 
+    border: 0px solid rgba(245, 245, 245, 1); 
+    border-radius: 0px; 
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #76a09c
+}
+
+
+.progress-row-label {
+    text-align: right;
+    font-size: 100%; 
+}
+
+/*.languages {
+    width: 50%;
+    margin: 0 auto;*/
+   
+}
+
+.english, .russian { 
+    clear: both;
+   
+}
+
+#skill-car {
+    font-size: 100%;
+} 
+
+.fa {
+    color: #76a09c;
+}
+
+.skills-coding {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.coding-languages {
+    /*padding-top: 36px;
+    width: 80%;
+    margin: 0 auto;*/
+    display: inline-block;
+}
+
+.fa-2x {
+    color:#2f3439
+}
+
+.interests {
+    margin-top: 36px;
+} 
+
+.interest-icons {
+    font-family: "Segoe UI Symbol";
+    color: #76a09c; 
+    font-size: 50px; 
+}
+
+.vertical-line {
+    border-right: 1px solid #BEBCB7; 
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #BEBCB7;
+}
+
+p {
+    margin: 12px 0 24px; 
+}
+
+.languages {
+    margin-top: 20px;
+}
+
+
