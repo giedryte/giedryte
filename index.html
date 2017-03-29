@@ -6,16 +6,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles print.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <head> 
+</head> 
 <body>
     <div class="container" id="cv"> 
         <div class="top row">
             <div class="col-sm-3"> 
                 <div id="hi"> Hi! </div>
             </div>
+
             <div class="col-sm-9">
                 <div id="letter"> My name is Ieva. After three years in Marketing, recently I have got greatly interested in
                     IT industry. I started learning new things about IT projects: business analysis, Agile and
@@ -25,10 +27,12 @@
                     might have in this field. </div>
             </div>
         </div>
+
     <hr> 
         <div class="title"> RESUME OF <span id="name"> IEVA GIEDRYTE </span> </div> 
     <hr> 
-        <div class="sections">
+   
+        <div class="sections row">
             <div class="col-sm-4 column-left vertical-line">
                 <div class="horizontal-line" id="contact">  
                     <h2> Contact </h2> 
@@ -41,46 +45,65 @@
                         +37065014462 
                         
                         <br />
+
                         <i class="fa fa-at" aria-hidden="true"></i> 
                         <a href="mailto:giedryte.ieva@gmail.com"> giedryte.ieva@gmail.com </a> 
+                        
                         <br /> 
                         
                         <i class="fa fa-map-marker" aria-hidden="true"></i> 
                         M. Horodnicienes g. 23, Vilnius
+                        
                         <br /> 
 
                         <a href="https://www.linkedin.com/in/ieva-giedryt%C4%97-4113a74a/">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                        
+                        <a href="https://giedryte.github.io">
+                        <i class="fa fa-github" aria-hidden="true"></i></a>
                     </p>
                 </div>
 
-                <div class="horizontal-line">  
+                <div class="horizontal-line" id="education">  
                     <h2> Education </h2> 
-                        <div id="university"> ISM University of Management and Economics</div> 
-                        <div id="program"> Bachelor of International Business and Communication (english) </div> 
-                        <p> Competences gained: knowledge and understanding of main international business and economic functions; personal and business communication skills; business strategy development and implementation.</p>
+                    <div id="university"> ISM University of Management and Economics</div> 
+                    <div id="program"> Bachelor of International Business and Communication (english) </div> 
+                    <p> Competences gained: knowledge and understanding of main international business and economic functions; personal and business communication skills; business strategy development and implementation.</p>
                 </div>
-
-                <div>  
+ 
+                <div id="languages">
                     <h2> Languages </h2>
-                        <div class="progress-circular languages lithuanian">
-                            <div class="progress-radial-languages progress-100">
-                                <div class="overlay-languages"></div> 
-                            </div> Lithuanian
-                        </div>  
+                    <div class="row">
 
-                        <div class="progress-circular languages english">
-                            <div class="progress-radial-languages progress-90">
-                                <div class="overlay-languages"></div> 
-                            </div> English
-                        </div> 
+                        <div class="row row-eq-height">
+                            <div class="progress-circular row-eq-height languages lithuanian">
+                                <div class="progress-radial-languages progress-100">
+                                    <div class="overlay-languages"></div> 
+                                </div> 
+                            </div>  
+                            <div class="languages language-description row-eq-height"> Lithuanian </div>
+                        </div>
 
-                        <div class="progress-circular languages russian">
-                            <div class="progress-radial-languages progress-18">
-                                <div class="overlay-languages"></div> 
-                            </div> Russian
-                        </div> 
-                </div> 
+                        <div class="row row-eq-height">
+                            <div class="progress-circular row-eq-height languages english">
+                                <div class="progress-radial-languages progress-90">
+                                    <div class="overlay-languages"></div> 
+                                </div> 
+                            </div>  
+                            <div class="languages language-description row-eq-height"> English </div>
+                        </div>
+                
+                        <div class="row row-eq-height">
+                            <div class="progress-circular row-eq-height languages russian">
+                                <div class="progress-radial-languages progress-18">
+                                    <div class="overlay-languages"></div> 
+                                </div> 
+                            </div>  
+                            <div class="languages language-description row-eq-height"> Russian </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
             <div class="col-sm-8 column-right"> 
@@ -197,7 +220,8 @@
                             </div>
                         </div> 
                                         
-                     <div class="skills-coding">   
+                     <div class="row skills-coding">  
+
                         <div class="progress-circular coding-languages">
                             <div class="progress-radial progress-75">
                                 <div class="overlay"> 
@@ -221,21 +245,22 @@
                                 </div> 
                             </div> 
                         </div> 
+
                     </div> 
                 </div>
 
                 <div class="block-right interests"> 
                 <h2> Interests </h2> 
                     <div class="interest-icons">
-                        <span>&#x1f3c2;</span>
-                        <span>&#x1f30d;</span>
-                        <span>&#x1f4d5;</span> 
+                        <span class="snowboard">&#x1f3c2;</span>
+                        <i class="fa fa-globe"></i>
+                        <i class="fa fa-book"></i> 
                         <i class="fa fa-music"></i>
                         <i class="fa fa-bicycle"></i>
                     </div>
                 </div> 
             </div>
         </div>
-    </div>
+    </div> 
 </body>
 </html>

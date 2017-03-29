@@ -39,8 +39,8 @@ h2 {
 #letter {
     font-size: 100%; 
     vertical-align: bottom;
-       
 }
+
 .title {
     text-align:center;
     font-size: 200%;
@@ -80,15 +80,25 @@ h2 {
     font-size: 100%; 
 }
 
-/*.languages {
-    width: 50%;
-    margin: 0 auto;*/
-   
+.languages {
+    display: inline-block;
+    margin-top: 20px;
 }
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+} 
 
 .english, .russian { 
     clear: both;
-   
+} 
+
+.language-description {
+    margin: auto 20px;
 }
 
 #skill-car {
@@ -100,19 +110,13 @@ h2 {
 }
 
 .skills-coding {
-    width: 80%;
-    margin: 0 auto;
+    display: flex;
+    margin: 15%;
 }
 
 .coding-languages {
-    /*padding-top: 36px;
-    width: 80%;
-    margin: 0 auto;*/
     display: inline-block;
-}
-
-.fa-2x {
-    color:#2f3439
+    margin: auto; 
 }
 
 .interests {
@@ -123,6 +127,12 @@ h2 {
     font-family: "Segoe UI Symbol";
     color: #76a09c; 
     font-size: 50px; 
+    display: flex;
+    margin-top: 36px; 
+}
+
+.snowboard, .fa-globe, .fa-book, .fa-music, .fa-bicycle {
+    margin: auto;
 }
 
 .vertical-line {
@@ -137,8 +147,13 @@ p {
     margin: 12px 0 24px; 
 }
 
-.languages {
-    margin-top: 20px;
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
+
+
+
+
 
 
