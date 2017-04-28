@@ -16,14 +16,14 @@ h2 {
     color: #BEBCB7;
 }
 
-@media (max-width: 780px) { 
+@media (max-width: 47.99em) { 
     #hi {
         font-size: 110px;
         margin-top: -38px; 
     }
 }
 
-@media (min-width: 781px) { 
+@media (min-width: 48em) { 
     #hi {
         font-size: 150px; 
         margin-top: -50px; 
@@ -43,7 +43,7 @@ h2 {
 
 .title {
     text-align:center;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #name {
@@ -150,8 +150,12 @@ p {
 .row {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 12px; 
 }
 
+a, a:focus, a:hover {
+    color: #76a09c; 
+}
 
 
 
