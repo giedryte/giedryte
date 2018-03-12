@@ -1,0 +1,207 @@
+$font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?bi7a8b');
+  src:  url('../fonts/icomoon@mixin eot?bi7a8b#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon@mixin ttf?bi7a8b') format('truetype'),
+    url('../fonts/icomoon@mixin woff?bi7a8b') format('woff'),
+    url('../fonts/icomoon@mixin svg?bi7a8b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-key:before {
+  content: "\e913";
+}
+.icon-line-chart:before {
+  content: "\e912";
+}
+.icon-diamond:before {
+  content: "\e910";
+}
+.icon-file-media:before {
+  content: "\e90e";
+}
+.icon-bubbles:before {
+  content: "\e90f";
+}
+.icon-book:before {
+  content: "\e908";
+}
+.icon-newspaper:before {
+  content: "\e906";
+}
+.icon-stats:before {
+  content: "\e911";
+}
+.icon-graduate:before {
+  content: "\e90d";
+}
+.icon-megaphone:before {
+  content: "\e904";
+}
+.icon-laptop:before {
+  content: "\e900";
+}
+.icon-document-star:before {
+  content: "\e909";
+}
+.icon-book-bookmark:before {
+  content: "\e90a";
+}
+.icon-book2:before {
+  content: "\e90b";
+}
+.icon-document-text:before {
+  content: "\e901";
+}
+.icon-announcement:before {
+  content: "\e905";
+}
+
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-SemiBoldItalic.eot');
+	src: url('../fonts/Raleway-SemiBoldItalic@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-SemiBoldItalic@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-SemiBoldItalic@mixin woff') format('woff'),
+		url('../fonts/Raleway-SemiBoldItalic@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-SemiBoldItalic@mixin svg#Raleway-SemiBoldItalic') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Italic.eot');
+	src: url('../fonts/Raleway-Italic@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Italic@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-Italic@mixin woff') format('woff'),
+		url('../fonts/Raleway-Italic@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-Italic@mixin svg#Raleway-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Thin.eot');
+	src: url('../fonts/Raleway-Thin@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Thin@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-Thin@mixin woff') format('woff'),
+		url('../fonts/Raleway-Thin@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-Thin@mixin svg#Raleway-Thin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Light.eot');
+	src: url('../fonts/Raleway-Light@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Light@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-Light@mixin woff') format('woff'),
+		url('../fonts/Raleway-Light@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-Light@mixin svg#Raleway-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Medium.eot');
+	src: url('../fonts/Raleway-Medium@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Medium@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-Medium@mixin woff') format('woff'),
+		url('../fonts/Raleway-Medium@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-Medium@mixin svg#Raleway-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-ThinItalic.eot');
+	src: url('../fonts/Raleway-ThinItalic@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-ThinItalic@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-ThinItalic@mixin woff') format('woff'),
+		url('../fonts/Raleway-ThinItalic@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-ThinItalic@mixin svg#Raleway-ThinItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.eot');
+	src: url('../fonts/Raleway-Regular@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Regular@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-Regular@mixin woff') format('woff'),
+		url('../fonts/Raleway-Regular@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-Regular@mixin svg#Raleway-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-MediumItalic.eot');
+	src: url('../fonts/Raleway-MediumItalic@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-MediumItalic@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-MediumItalic@mixin woff') format('woff'),
+		url('../fonts/Raleway-MediumItalic@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-MediumItalic@mixin svg#Raleway-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-SemiBold.eot');
+	src: url('../fonts/Raleway-SemiBold@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-SemiBold@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-SemiBold@mixin woff') format('woff'),
+		url('../fonts/Raleway-SemiBold@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-SemiBold@mixin svg#Raleway-SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+$font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-LightItalic.eot');
+	src: url('../fonts/Raleway-LightItalic@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-LightItalic@mixin woff2') format('woff2'),
+		url('../fonts/Raleway-LightItalic@mixin woff') format('woff'),
+		url('../fonts/Raleway-LightItalic@mixin ttf') format('truetype'),
+		url('../fonts/Raleway-LightItalic@mixin svg#Raleway-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+$font-face {
+	font-family: 'Cantata One';
+	src: url('../fonts/CantataOne-Regular.eot');
+	src: url('../fonts/CantataOne-Regular@mixin eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CantataOne-Regular@mixin woff2') format('woff2'),
+		url('../fonts/CantataOne-Regular@mixin woff') format('woff'),
+		url('../fonts/CantataOne-Regular@mixin ttf') format('truetype'),
+		url('../fonts/CantataOne-Regular@mixin svg#CantataOne-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
