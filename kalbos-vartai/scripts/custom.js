@@ -29,12 +29,12 @@ $(window).scroll(function () {
 
 
     $('.title h1').css({
-        'transform' : 'translate(-50%, '+ wScroll /1.5 + '%)'
+        'transform' : 'translate(-50%, '+ wScroll / 5 + '%)'
     });
 
-    $('.button').css({
-        'transform' : 'translate(-50%, '+ wScroll /2 + '%)'
-    });
+    // $('.button').css({
+    //     'transform' : 'translate(-50%, '+ wScroll / 2 + '%)'
+    // });
 
     if (wScroll > $('.service-outer').offset().top - ($(window).height() / 1.2)) {
         $('.service-body .title').addClass("animated fadeInUp");
@@ -78,6 +78,18 @@ $(window).scroll(function () {
         $('.stiprybe').each(function (i) {
             setTimeout(function () {
                 $('.stiprybe').eq(i).addClass('animated fadeInUp'); }, 200 * (i + 1));
+        });
+    }
+
+    
+    if (wScroll > $('.work-outer').offset().top - ($(window).height() / 1.2)) {
+        $('.work-body .title').addClass("animated fadeInUp");
+    }
+
+    if (wScroll > $('.work-body .item-list').offset().top - ($(window).height() / 1.5)) {
+        $('.work-body .item').each(function (i) {
+            setTimeout(function () {
+                $('.work-body .item').eq(i).addClass('animated fadeInUp'); }, 200 * (i + 1));
         });
     }
 
