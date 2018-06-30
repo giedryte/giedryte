@@ -86,6 +86,10 @@ h1, h2 {
 	letter-spacing: 0.15em;
 }
 
+input, textarea {
+	-webkit-appearance: none;
+}
+
 /*Navigation*/
 
 .header-outer {
@@ -505,6 +509,7 @@ h1, h2 {
 				width: 80%;
 				margin: auto;
 				padding: 64px 0;
+				flex-wrap: wrap;
 				.item {
 					background-position: center;
 					background-size: contain;
@@ -539,6 +544,8 @@ h1, h2 {
 	background-color: #2d2d2d; 
 	box-shadow: inset 0px -10px 20px #1f1f1f, inset 0px 10px 20px #1f1f1f; 
 	.contacts-body {
+		width: 90%;
+		margin: auto;
 
 		.title {
 			width: 100%;
@@ -557,16 +564,22 @@ h1, h2 {
 			
 		}
 
+		
+
 		.kontaktai-forma {
 			
-			width: 50%;
+			width: 80%;
 			margin: auto;
 			opacity: 0;
 			animation-duration: $anm-duration;
+			display: flex;
+			flex-wrap: wrap;
 
 			.holder {
 				display: flex;
-				justify-content: space-between;
+				align-items: center;
+				flex-direction: column;
+				width: 40%;
 
 				.image {
 					background-image: url('../images/agne.png');
@@ -576,20 +589,29 @@ h1, h2 {
 					height: 150px;
 					border-radius: 50%;
 					display: inline-block;
+					margin: 1em 0;
+				}
+
+				a p {
+					padding: 1em 0;
+					text-align: left;
+
 				}
 			}
 
 			p {
-				padding: 48px 0;
+				padding: 64px 0;
 				color: $white;
 				font-size: 1em;
 				line-height: 1.5em;
-				text-align: left;
+				text-align: center;
 				letter-spacing: 0.05em;
 				display: inline-block;
-				width: 70%;
+				width: 100%;
 				padding-left: 1em;
 			}
+
+			
 
 			.forma {
 				display: flex;
@@ -597,6 +619,8 @@ h1, h2 {
 				flex-wrap: wrap;
 				align-items: flex-start;
 				justify-content: space-between;
+				width: 40%;
+				margin: auto;
 			}
 
 			input[type="text"], input[type="email"], textarea {
@@ -618,7 +642,7 @@ h1, h2 {
 			}
 
 			textarea {
-				height: 150px;
+				height: 100px;
 				overflow-y: hidden;
 			}
 
@@ -626,8 +650,12 @@ h1, h2 {
 				color: $white;
 			}
 
-			input[name="name"], input[name="telephone"], input[name="e-mail"] {
-				width: 30%;
+			input[name="name"], input[name="telephone"] {
+				width: 45%;
+			}
+
+			input[name="e-mail"] {
+				width: 100%;
 			}
 
 			textarea {
@@ -640,7 +668,7 @@ h1, h2 {
 
 			input[type="button"] {
 				border: 1px solid $white;
-				padding: 1em 2em;
+				padding: 0.5em 1.5em;
 				margin: 1.5em auto;
 				background-color: transparent;
 				font-family: Raleway;
@@ -671,10 +699,10 @@ h1, h2 {
 
 
 .footer-outer {
-	background-color: #c0c0c0;; 
+	background-color: #fff;; 
 
 	.footer-inner {
-		padding: 3em 0;
+		padding: 1em 0;
 	}
 
 	.footer-body {
@@ -749,6 +777,11 @@ h1, h2 {
 
 	.title h2 {
 		font-size: 2em;
+		top: 40%;
+	}
+
+	.banner-outer .button {
+		top: 80%;
 	}
 
 	.header-outer .header-inner .top-nav {
@@ -762,7 +795,7 @@ h1, h2 {
 			width: auto;
 
 			img {
-				width: 150px;
+				width: 100px;
 			}
 		}
 	}
@@ -772,6 +805,10 @@ h1, h2 {
 	}
 
 	.banner-outer {
+
+		.banner-img {
+			background-attachment: scroll;
+		}
 
 		.title {
 			h1 {
@@ -808,11 +845,14 @@ h1, h2 {
 
 	.citation-outer {
 		height: 350px;
+		background-attachment: scroll;
 		.citation-body {
 			width: 90%;
 			font-size: 1em;
 		}
 	}
+
+
 
 	.about-outer {
 		.about-body {
@@ -827,11 +867,26 @@ h1, h2 {
 			}
 		}
 	}
+	
+	.work-outer { 
+		.work-inner { 
+			.work-body { 
+				.item-list .item {
+					width: 50%;
+					margin: 1em 0;
+				}
+			}
+		}
+	}
 
 	.contacts-outer {
 		.contacts-body {
 			.kontaktai-forma {
 				width: 90%;
+
+				.holder, .forma {
+					width: 100%;
+				}
 
 				input[name="name"], input[name="telephone"], input[name="e-mail"] {
 					width: 100%;
