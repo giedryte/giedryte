@@ -716,6 +716,15 @@ h1, h2 {
 
   .citation-outer {
     height: 350px;
+    background-attachment: scroll;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
   }
   .citation-outer .citation-body {
     width: 90%;
