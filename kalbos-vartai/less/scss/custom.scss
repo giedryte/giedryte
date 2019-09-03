@@ -823,15 +823,6 @@ h1, h2 {
 
 		.banner-img {
 			background-attachment: scroll;
-			height: 100vh;
-			position: relative;
-			z-index: 1;
-			background-attachment: fixed;
-			background-position: center;
-			background-repeat: no-repeat;
-			-webkit-background-size: cover;
-			background-size:100%;
-width:100%;
 		}
 
 		.button {
@@ -901,14 +892,7 @@ width:100%;
 	.citation-outer {
 		height: 350px;
 		background-attachment: scroll;
-		width: 100%;
-		position: relative;
-		z-index: 1;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-webkit-background-size: cover;
+
 		.citation-body {
 			width: 90%;
 			font-size: 1em;
