@@ -663,7 +663,10 @@ h1, h2 {
   }
 
   .banner-outer .banner-img {
-    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .title h2 {
