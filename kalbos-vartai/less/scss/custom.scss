@@ -815,6 +815,13 @@ h1, h2 {
 		
 	}
 
+	.banner-outer {
+
+		.banner-img {
+			background-size: 100%; 
+		}
+	}
+
 	.title h2 {
 		font-size: 2em;
 	}
@@ -908,23 +915,23 @@ h1, h2 {
 		}
 	}
 
-	.contacts-outer {
-		.contacts-body {
-			.kontaktai-forma {
-				width: 90%;
-				flex-direction: column;
-    			align-items: center;
+	// .contacts-outer {
+	// 	.contacts-body {
+	// 		.kontaktai-forma {
+	// 			width: 90%;
+	// 			flex-direction: column;
+    // 			align-items: center;
 
-				input[name="name"], input[name="telephone"], input[name="e-mail"] {
-					width: 100%;
-				}
+	// 			input[name="name"], input[name="telephone"], input[name="e-mail"] {
+	// 				width: 100%;
+	// 			}
 
-				input[type="text"], input[type="email"], textarea {
-					font-size: 0.8em;
-				}
-			}
-		}
-	}
+	// 			input[type="text"], input[type="email"], textarea {
+	// 				font-size: 0.8em;
+	// 			}
+	// 		}
+	// 	}
+	// }
 	
 
 	.footer-outer { 
