@@ -667,10 +667,7 @@ h1, h2 {
   }
 
   .banner-outer .banner-img {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-attachment: scroll;
   }
   .banner-outer .button {
     top: 75%;
